@@ -2,6 +2,8 @@
 
 A simple project demonstrating how to render a colorful triangle using Zig and SDL 3. This example sets up an SDL window, a renderer, defines vertices for a triangle with distinct colors, and renders it to the screen while handling basic window events.
 
+![Screenshot of the SDL3 Triangle](assets/screenshot.png)
+
 ## Features
 
 *   **Colorful Triangle Rendering**: Displays a single triangle with red, green, and blue vertices.
@@ -16,12 +18,12 @@ To build and run this project, you will need:
 *   **Zig Compiler**: Ensure you have a recent version of the Zig compiler installed. You can download it from [ziglang.org](https://ziglang.org/).
 *   **SDL 3 Development Libraries**: You need the SDL 3 development libraries installed on your system.
 
-    *   **On Ubuntu/Debian**:
+    *   **On Ubuntu/Debian**:\
         ```bash
         sudo apt-get update
         sudo apt-get install libsdl3-dev
         ```
-    *   **On macOS (using Homebrew)**:
+    *   **On macOS (using Homebrew)**:\
         ```bash
         brew install sdl3
         ```
@@ -46,7 +48,7 @@ Follow these steps to build and run the `zig_sdl3_triangle` project:
     ```bash
     zig build run
     ```
-    Alternatively, you can manually run the compiled executable:
+    Alternatively, you can manually run the compiled executable:\
     ```bash
     ./zig-out/bin/sdl_triangle # The exact path might vary based on your system
     ```
